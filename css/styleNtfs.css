@@ -134,6 +134,16 @@ h4 {
   margin-left: 10px;
 }
 
+.blink_me {
+  animation: blinker 1.5s ease infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
