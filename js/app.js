@@ -1,3 +1,5 @@
+alert('Just Touch The Card')
+
 var card = []
 var allAnchor = []
 
